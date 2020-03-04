@@ -402,6 +402,21 @@ footer a {
   .open-nav{
     display: inline-block;
   }
+  .header__inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+  }
+
+  .header__logo{
+    margin-top: 0;
+    margin-right: 0;
+    height: 45px
+  }
+  .header__title{
+    font-size: 1.5rem;
+  }
+
 }
 
 @media screen and (min-width:550px ){
