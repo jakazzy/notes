@@ -381,6 +381,28 @@ footer a {
   display: flex;
   flex-wrap: wrap;
 }
+.open-nav{
+  display: none;
+}
+@media screen and (max-width: 550px){
+  nav{
+    width:300px;
+    height:100%;
+    position:absolute;
+    -webkit-transform:translate(-300px, 0);
+    transform: translate(-300px, 0);
+    transition: transform 0.3s ease
+  }
+
+  nav.open{
+    -webkit-transform:translate(0,0);
+    transform: translate(0,0)
+  }
+
+  .open-nav{
+    display: inline-block;
+  }
+}
 
 @media screen and (min-width:550px ){
 .hero{
