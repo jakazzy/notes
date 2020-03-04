@@ -270,6 +270,7 @@ main {
 
 .weather {
   padding: 1em;
+
 }
 
 .weather__location {
@@ -384,6 +385,22 @@ footer a {
 .open-nav{
   display: none;
 }
+
+@media screen and (min-width:450px) and (max-width: 550px){
+  
+  body{
+    font-size: 1em;
+  }
+  .seven-day-fc.tem-low, .seven-day-fc .temp-high{
+    display:inline-block;
+    width: 30%
+  }
+
+  .seven-day-fc .icon{
+    width:60px;
+    height: 60px
+  }
+}
 @media screen and (max-width: 550px){
   nav{
     width:300px;
@@ -417,6 +434,17 @@ footer a {
     font-size: 1.5rem;
   }
 
+  .weather{
+    max-width: 100%;
+  }
+  .weather ul{
+    max-width: 100%;
+  }
+
+  .snippet p{
+    line-height: 1.5em;
+  }
+
 }
 
 @media screen and (min-width:550px ){
@@ -438,6 +466,7 @@ footer a {
 }
 
 @media screen and (min-width:850px ){
+
   .content{max-width: 850px;
   margin: 0 auto}
 
@@ -446,4 +475,6 @@ footer a {
     max-width: 850px;
   }
   }
+
+
   
