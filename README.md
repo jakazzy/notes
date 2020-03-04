@@ -1,6 +1,6 @@
 # Simple online application
 
-**Tier:** 2-Intermediate
+**Tier:** Uno-https://newsapp-a6a55.firebaseapp.com
 
 There are four common layout patterns for building a responsive website and they include:
  ***Column Drop
