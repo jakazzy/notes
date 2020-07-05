@@ -1,4 +1,4 @@
-SVELTE - Tutorial ShaunPelling
+SVELTE Tutorial
 Svelte is a compiler for creating reactive web apps and interfaces.
 What is a compiler?
 A compiler is a software that translates a program written in a high level language to a low level language.
@@ -47,6 +47,18 @@ Then in the index.html file we link to all the bundled files(both the bundle.js 
 
 Question based on the example with Yoshi, local/global props?
 React to user events?
+Import and export
+eg. React to clicking or typing
+
+Svelte unlike React has both oneway and two way binding.
+eg. in the Yoshi example, when the data is updated inthe input element, it updates the belt color. On the other hand, if the button updates the belt color, it doesnot update the value of in the input element. To do that, we need to set the value of the input element to the beltColor.
+
+PS. Svelte has a short cut. Instead of acheiving two way binding by handling the input event and setting the value, one could simply use this "bind:value"
+
+Questions
+how does bind:value work under the hood?
+how is bind:value able to identify the method to trigger for an event(handleInput)
+what if i have another method triggering or modifying the beltcolor ina different way eg conditionally doing concatenation. Since both methods affectsame value, how will bind:value know which to trigger?
 
 How does svelte work under the hood?
 Components are the buidling blocks of the web app. The are put together and creates a whole website
