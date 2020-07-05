@@ -60,6 +60,11 @@ how does bind:value work under the hood?
 how is bind:value able to identify the method to trigger for an event(handleInput)
 what if i have another method triggering or modifying the beltcolor ina different way eg conditionally doing concatenation. Since both methods affectsame value, how will bind:value know which to trigger?
 
+NOTE:
+TO use oneway data binding use the on:input={methodToHandleInput} example.
+One the other hand, if it is a two way data binding then bind:value={beltColor}
+should work
+
 How does svelte work under the hood?
 Components are the buidling blocks of the web app. The are put together and creates a whole website
 How are languages processed?
