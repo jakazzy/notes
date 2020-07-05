@@ -73,8 +73,24 @@ Compiler
 Differences between a compiler and an intepreter
 The compiler scans the code, processes it and translates all the source code into machine code. Whereas an interpreter translates the program one statement at a time.
 
+TOPICS
+
+- Prerequisite HTML, CSS, JS
+- Setting up the project(and structure of the application)
+- Events, Data binding and Reactive values
+- Loops and Conditionals
+- Event handlers
+- Props, conditional styling
+- Event Forwarding and Event Modifiers
+- slots, forms, dispatch custom events
+- Lifecycle Hooks
+- Stores, motions, transitions, Animations
+- Actions, classes, component composition
+- Context API, special elements, Module context
+- Debugging
+
 References:
 
-- Shaun Pelling's tutorials
-  -Svelte Tutorials
+- Shaun Pelling's awesome tutorials on Svelte
+- Svelte basics from the docs
   etc
