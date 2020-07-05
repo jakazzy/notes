@@ -1,4 +1,4 @@
-SVELTE Tutorial
+Rough notes on SVELTE
 Svelte is a compiler for creating reactive web apps and interfaces.
 What is a compiler?
 A compiler is a software that translates a program written in a high level language to a low level language.
