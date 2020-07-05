@@ -72,3 +72,9 @@ High level language
 Compiler
 Differences between a compiler and an intepreter
 The compiler scans the code, processes it and translates all the source code into machine code. Whereas an interpreter translates the program one statement at a time.
+
+References:
+
+- Shaun Pelling's tutorials
+  -Svelte Tutorials
+  etc
