@@ -89,6 +89,13 @@ TOPICS
 - Context API, special elements, Module context
 - Debugging
 
+Oversimplified
+slots: pass HTML as props instead of string as props.
+Databinding: Two way data binding
+Event Forwarding: Want to emit/trigger event on child but the data is on the parent.
+dispatch custome events: Modify data on parent by passing data from child to parent
+Event modifiers: Modify events. eg. pipe preventDefault for events.
+
 References:
 
 - Shaun Pelling's awesome tutorials on Svelte
